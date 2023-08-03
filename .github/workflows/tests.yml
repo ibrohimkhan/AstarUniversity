@@ -57,7 +57,7 @@ jobs:
       run: swanky contract compile --all -v
 
     - name: Test dao contract
-      run: cargo test --manifest-path dao/Cargo.toml
+      run: cargo test --manifest-path Investment-dao/dao/Cargo.toml
 
     - name: Test governance_token contract
       run: cargo test --manifest-path governance_token/Cargo.toml
